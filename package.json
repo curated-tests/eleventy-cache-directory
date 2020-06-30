@@ -3,7 +3,7 @@
   "version": "5.0.0",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "eleventy",
+    "build": "ls -A -1 && eleventy && echo '--------------------' && ls -A -1",
     "watch": "eleventy --watch",
     "debug": "DEBUG=* eleventy"
   },
